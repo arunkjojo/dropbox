@@ -12,8 +12,10 @@ const Header = () => {
           <b>Dropbox</b> 
           Business
         </Navbar.Brand>
-        <Button variant="default" className="left try30 default">Try Free for 30 Days</Button>
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-false`} />
+        <div className="rightItem">
+          <Button variant="default" className="default">Try Free for 30 Days</Button>
+        </div>
+        <Navbar.Toggle className="navToggle" aria-controls={`offcanvasNavbar-expand-false`} />
       </Container>
     </Navbar>
     </HeaderDiv>

@@ -11,10 +11,10 @@ const Body = () => {
           Organize all your Team's content, tune out distractions, and get everyone coordinate with the world's first smart workspace.
         </Description>
         <div className="d-grid gap-2">
-          <Button variant="primary" size="lg" className="siteBtn primary">
+          <Button variant="primary" size="lg">
           Try Free for 30 Days
           </Button>
-          <Button variant="default" size="lg" className="siteBtn default">
+          <Button variant="default" size="lg" className="default">
           Purchase Now
           </Button>
         </div>

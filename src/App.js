@@ -1,9 +1,10 @@
+import React from 'react';
+import { AppDiv } from './style'
 import Body from './components/Body';
 import Header from './components/Header';
-import {AppDiv} from './style';
 function App() {
   return (
-    <AppDiv>
+    <AppDiv className="App">
       <Header />
       <Body />
     </AppDiv>

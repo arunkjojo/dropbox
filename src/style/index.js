@@ -1,15 +1,23 @@
 import styledComponent from "styled-components";
 
 export const AppDiv = styledComponent.div`
-
+    background-color: rgb(207 214 231);
 `
 export const HeaderDiv = styledComponent.div`
-    display:flex;
     .left{
         float: left!important;
     }
     .default{
-        border: solid;
+        background:#ffffff;
+        :hover{
+            background:#f4f4f4ed
+        }
+    }
+    .rightItem{
+        padding-left: 65%;
+    }
+    .navToggle{
+        border-color: rgba(0,0,0,0)!important;
     }
 `
 export const BodyDiv = styledComponent.div`
@@ -30,7 +38,17 @@ export const SiteDescription = styledComponent.div`
         margin-top: 30px;
     }
     .default{
-        border: solid;
+        background:#ffffff;
+        :hover{
+            background:#f4f4f4ed
+        }
+    }
+    .link{
+        text-decoration: underline;
+    }
+    p{
+        padding-bottom:10px;
+        padding-top:10px;
     }
 `
 export const Description = styledComponent.p`
