@@ -19,7 +19,7 @@ const Body = () => {
           </Button>
         </div>
         <p>or <span className='link'>Get Dropbox Basic</span></p>
-        <ArrowDown color="purple" size={96} />
+        <ArrowDown color="#5b034c" size={50} />
       </SiteDescription>
       <SiteImage>
         <img src={siteImg} alt="site"/>

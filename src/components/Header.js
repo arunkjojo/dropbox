@@ -1,5 +1,5 @@
 import React from "react";
-import {HeaderDiv} from "../style"
+import {HeaderDiv, Heading} from "../style"
 import {Navbar,Container, Button} from 'react-bootstrap'
 import logo from '../logo.png';
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
     <HeaderDiv>
     <Navbar expand={false} className="mb-3">
       <Container fluid>
-        <Navbar.Brand>
+        <Navbar.Brand href="#">
           <img src={logo} className="logo" alt="logo"/>
           <b>Dropbox</b> 
           Business
@@ -18,6 +18,7 @@ const Header = () => {
         <Navbar.Toggle className="navToggle" aria-controls={`offcanvasNavbar-expand-false`} />
       </Container>
     </Navbar>
+    <Heading>Work Comes together in Dropbox Business</Heading>
     </HeaderDiv>
   );
 };

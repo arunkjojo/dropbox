@@ -1,7 +1,7 @@
 import styledComponent from "styled-components";
 
 export const AppDiv = styledComponent.div`
-    background-color: rgb(207 214 231);
+    background-color: rgba(179, 207, 229, 255)
 `
 export const HeaderDiv = styledComponent.div`
     .left{
@@ -30,11 +30,11 @@ export const BodyDiv = styledComponent.div`
 export const SiteImage = styledComponent.div`
     flex:1
 `
-
 export const SiteDescription = styledComponent.div`
     flex:1;
     padding: 25px;
     ArrowDown{
+        cursor:pointer;
         margin-top: 30px;
     }
     .default{
@@ -44,6 +44,7 @@ export const SiteDescription = styledComponent.div`
         }
     }
     .link{
+        cursor:pointer;
         text-decoration: underline;
     }
     p{
@@ -53,4 +54,11 @@ export const SiteDescription = styledComponent.div`
 `
 export const Description = styledComponent.p`
     font-size: 20px;
+`
+export const Heading = styledComponent.h1`
+    color:#5b034c;
+    font-family: 'Lato';
+    font-size: 75px;
+    font-weight: 900;
+    padding-left: 30px;
 `
